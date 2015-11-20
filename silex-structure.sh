@@ -235,6 +235,9 @@ mkdir src
 mkdir views
 mkdir views/Default
 mkdir views/Page
+# Create header and footer
+touch views/Page/header.twig
+touch views/Page/footer.twig
 # Create layout.twig
 touch views/layout.twig
 cat > views/layout.twig <<EOF
